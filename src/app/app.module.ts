@@ -6,6 +6,7 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { LogoApComponent } from './componentes/logo-ap/logo-ap.component';
 import { SocialComponent } from './componentes/social/social.component';
 import { BannerComponent } from './componentes/banner/banner.component';
+import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { BannerComponent } from './componentes/banner/banner.component';
     EncabezadoComponent,
     LogoApComponent,
     SocialComponent,
-    BannerComponent
+    BannerComponent,
+    AcercaDeComponent
   ],
   imports: [
     BrowserModule
